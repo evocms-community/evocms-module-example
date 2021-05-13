@@ -1,0 +1,16 @@
+{
+    "name": "mnoskov/evocms-module-example",
+    "description": "Example of module for evocms 3.x",
+    "autoload": {
+        "psr-4": {
+            "EvolutionCMS\\Example\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EvolutionCMS\\Example\\ExampleServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.table thead td {
+    position: sticky;
+    top: -1px;
+    background: #fff;
+}
+.table tfoot td {
+    position: sticky;
+    bottom: -1px;
+    background: #fff;
+}
+.table .pagination {
+    display: inline-flex;
+    margin: 0.5rem 0;
+}
