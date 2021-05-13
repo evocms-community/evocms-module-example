@@ -3,7 +3,7 @@
 <div class="module-page">
     <h1>
         <i class="fa fa-list"></i>
-        @yield('pagetitle', Lang::get('example::global.main_caption'))
+        @yield('pagetitle', __('example::global.main_caption'))
     </h1>
 
     @yield('buttons')
